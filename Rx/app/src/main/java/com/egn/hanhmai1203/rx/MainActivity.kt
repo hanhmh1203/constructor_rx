@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         btnStart.setOnClickListener(View.OnClickListener {
             val intent = Intent(this, SecondActivity::class.java)
-            startActivity(intent);
+            startActivity(intent)
         })
 
     }
